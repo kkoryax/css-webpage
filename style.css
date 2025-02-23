@@ -121,6 +121,25 @@ button {
     color: rgb(23, 23, 23);
 }
 
+.boxSection2-1 {
+    padding: 0.45rem 0.75rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: #32B34D;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    line-height: 5rem;
+}
+
+.boxSection2-1 p {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+}
+
 .topic-description {
     margin-bottom: 1.25rem;
 }
