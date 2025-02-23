@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * {
+    outline: red solid 1px;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0.75rem;
+    outline: black solid 1px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.75rem;
+    width: 80ch;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+}
+
+section {
+    outline: red solid 2.5px;
+    padding: 0.75rem;
+    width: 45ch;
+}
+
+div {
+    margin-bottom: 0.5rem;
+}
+
+.boxSection {
+    padding: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: #0074B9;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.boxSection p {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.description {
+    font-weight: 600;
+}
+
+button {
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    width: 8rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+}
+
+
